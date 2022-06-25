@@ -1,0 +1,42 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 40%;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+td {
+  width: 10%;
+}
+
+.student_name {
+  background-color: rgb(206, 161, 248);
+}
+
+#john_address {
+  color: rgb(24, 122, 250);
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.student_address {
+  width: 40%;
+}
+
+tr:hover {
+  background-color: #d6eeee;
+}
+
+#city_id * {
+  background-color: rgb(143, 140, 140);
+}
